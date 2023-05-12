@@ -16,16 +16,16 @@ app.layout = dbc.Container([
     dbc.Row(
         dbc.Col([
             html.H1("REHABTEC CUMPLE 10 AÑOS", style={'textAlign':'center'})
-        ], width=12)
+        ], xs =12,sm =12, md= 12,lg = 5,xl= 5)
     ),
     html.Hr(),
     dbc.Row([
         dbc.Col([
             html.H2("2013-PUENTE DE LA PAZ RÍO SOGAMOSO-2023"),
-            BeforeAfter(before=dict(src="/assets/juntabefore.jpg"), after=dict(src="/assets/juntaafter2.jpg"), width='700', height='500',value =50)
-        ], width=12,style={'textAlign':'center'}),
+            BeforeAfter(before=dict(src="/assets/juntabefore.jpg"), after=dict(src="/assets/juntaafter2.jpg"), width='500', height='300',value =50)
+        ], xs =12,sm =12, md= 12,lg = 5,xl= 5, style={'textAlign':'center'}),
     ],className='mb-5'),
-],fluid=True)
+], fluid =True)
 
 
 if __name__ == '__main__':
