@@ -25,7 +25,7 @@ app.layout = dbc.Container([
             BeforeAfter(before=dict(src="/assets/juntabefore.jpg"), after=dict(src="/assets/juntaafter2.jpg"), width='700', height='500',value =50)
         ], width=12,style={'textAlign':'center'}),
     ],className='mb-5'),
-])
+],fluid=True)
 
 
 if __name__ == '__main__':
